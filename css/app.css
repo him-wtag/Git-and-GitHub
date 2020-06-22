@@ -4,4 +4,6 @@ body {
 h1 {
     font-size: 48px;
     font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
 }
