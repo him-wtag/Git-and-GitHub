@@ -106,10 +106,13 @@ to commit the changes to one file `$ git commit file1`
  to commit all changes,, any of these forms will do it: 
 ```$ git commit
 $ git commit ./
-$ git commit -a
+$ git commit -a  
 ```
+`$ git commit -a -m "Message"` commit all changes skipping the staging area. useful for small commits. But it doesn't add or commit untracked files.
+
 ### `$ git diff`
-The git diff command will show you the changes that have not yet been committed.
+The git diff command will show you the changes that have not yet been staged.
+`$ git diff --staged` will show changes that have been staged but not yet committed.
 
 ### .gitignore
 blank lines can be used for spacing
