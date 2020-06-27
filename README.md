@@ -59,13 +59,27 @@
 # File System Commands
 ***
 
-`ls`- used to list files and directories
-`mkdir` - used to create a new directory
-`cd` - used to change directories
-`rm` - used to remove files and directories
+- `ls`- used to list files and directories
+- `mkdir` - used to create a new directory
+- `cd` - used to change directories
+- `rm` - used to remove files and directories
 
 # Git Config 
 ----
+### Generate SSH KEY
+```
+ls -a -l ~/.ssh
+
+ssh-keygen -t rsa -b 4096 -C "imamhosssain@gmail.com"
+
+ls -a -l ~/.ssh
+
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/id_rsa
+
+ssh -T git@github.com
+```
 ### `$ git --version`
 
 ### `git help --all`
