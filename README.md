@@ -15,6 +15,7 @@
 | `git rm   `         | Similar to the Linux `rm` command, this deletes, or removes a file 
 
 ### Review Changes
+***
 
 |       Command	                |    Explanation                   |
 |:----------------------        |:--------------------------------:|
