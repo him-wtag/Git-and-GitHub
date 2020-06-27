@@ -1,7 +1,5 @@
 # Git-and-GitHub
 
-# Git and Github 
-
 ### Basic Git Commands
 ***
 
