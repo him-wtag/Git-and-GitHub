@@ -301,3 +301,5 @@ Fix error: `$ git prune`
 Shows who made which changes
 
 
+### `$ git rebase master
+put the master branch on top of current branch
